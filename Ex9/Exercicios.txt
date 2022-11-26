@@ -1,0 +1,3 @@
+9- Montar um script onde o usuário entre com o valor da conta de um restaurante e ele acrescente automaticamente
+o valor do serviço que é cobrado. Este valor representa 10% do valor total da conta. Exibir: valor da conta – valor do
+serviço – total da conta com o serviço.

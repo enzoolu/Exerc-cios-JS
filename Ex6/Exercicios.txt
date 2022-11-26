@@ -1,0 +1,16 @@
+6- Uma empresa tem para um determinado funcionário uma ficha contendo o nome, número de horas trabalhadas e o
+número de dependentes de um funcionário. Considerando que a empresa paga R$ 98,00 por hora e 80 reais por
+dependentes.
+Solicite:
+a) Nome do funcionário.
+b) A quantidade de horas trabalhadas no mês.
+c) A quantidade de dependentes do funcionário.
+Calcule:
+a) Calcule o salário do funcionário.
+b) Desconto do INSS - Sobre o salário é feito desconto de 8.5%
+para o INSS.
+c) Desconto de IR - Sobre o salário é feito descontos de 5% para
+IR.
+d) Salário final - (Salário – desconto de IR e desconto de INSS)
+Exiba:
+a) Nome do funcionário / Salário bruto (sem descontos) / Desconto de IR / d) Desconto de INSS / e) Salário Final.

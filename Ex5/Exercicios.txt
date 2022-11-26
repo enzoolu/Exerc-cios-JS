@@ -1,0 +1,3 @@
+5- Faça um script para calcular a base e a altura de um triângulo. Em seguida exiba a área do mesmo. Use a seguinte
+fórmula:
+Área = ( Base * Altura ) / 2 

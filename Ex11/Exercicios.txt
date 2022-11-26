@@ -1,0 +1,1 @@
+11- Escreva um script para entrar com 5 números e exibir a quantidade de números maiores que 10.

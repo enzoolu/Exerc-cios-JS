@@ -1,0 +1,2 @@
+12- Escrever um script que peça cinco valores inteiros, calcular a sua média, e escrever na tela os números que são
+superiores à média.

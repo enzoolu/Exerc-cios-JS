@@ -1,0 +1,4 @@
+3- Uma loja de roupas pagará a seus vendedores um salário de R$ 1000,00 por mês mais uma comissão de R$ 25,00
+para cada calça vendida. Sabendo que o valor de uma calça é de 140,00, elabore um script para calcular e exibir o salário
+do vendedor em um determinado mês para isso solicite: o nome do vendedor e o número de calças vendidas. Exiba na
+tela todas as informações obtidas e calculadas.

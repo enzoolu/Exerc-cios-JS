@@ -1,0 +1,6 @@
+4- Faça um script que solicite ao usuário as seguintes informações de um funcionário: Nome, idade cargo e o seu
+salário bruto. Após isso calcule:
+a) Salário Bruto = O salário bruto teve um reajuste de 38%.
+b) Bônus = O funcionário receberá uma gratificação de 20% sobre o salário bruto.
+c) Descontos =Do salário bruto total é descontado 15%.
+Exiba na tela: Nome, idade e cargo, salário bruto, o valor do bônus, o valor do desconto e o salário final.

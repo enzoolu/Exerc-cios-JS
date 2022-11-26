@@ -1,0 +1,7 @@
+10- Montar um script onde o usuário entre com o preço de carro qualquer. Exibir:
+Preço do carro 
+Preço do carro com desconto de 13%
+Preço do carro com acréscimo de 17% 
+Preço do carro dividido em 20 parcelas
+Preço do carro com desconto de 5% e pagamento de IPVA de R$ 2923,00
+Preço do carro com entrada de 20% e o restante parcelado em 12 vezes

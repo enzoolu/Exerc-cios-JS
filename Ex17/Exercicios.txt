@@ -1,0 +1,1 @@
+17- Monte um script onde você entre com um valor em MegaBytes e seja exibido o valor em bytes.

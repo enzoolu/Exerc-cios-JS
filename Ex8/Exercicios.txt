@@ -1,0 +1,1 @@
+8- Montar um script que peça 3 números e verifique se o primeiro é maior que a soma dos outros dois.

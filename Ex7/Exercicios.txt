@@ -1,0 +1,5 @@
+7- Peça ao usuário a entrada de dois números inteiros. Desenvolva as seguintes funcionalidades.
+a) Verificar se o 1º. número é maior que o 2º. número.
+b) Verificar se o 2º. número é maior que o 1º. número.
+c) Verificar se os dois números são iguais.
+d) Verificar se os dois números são diferentes. 
