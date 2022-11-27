@@ -66,7 +66,7 @@ for(let i = 0; i < idade.length; i++) {
     mediaIdade = somaIdade / 300;
 };
 
-
+//inserir dados
 inserirMedia.innerHTML = 'A média salárial é de R$ ' + mediaSalarial.toFixed(2);
 inserirMulheres.innerHTML = mulheres.length + ' são mulheres';
 inserirHomens.innerHTML = homens.length + ' são homens';
