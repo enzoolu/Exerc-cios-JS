@@ -16,8 +16,9 @@ let idade = [];
 //sortear salários
 for(let i = 0; i < 300; i++) {
     let salarioSorteado = Math.random() * 20000;
+    let salarioMinimo = 1200;
 
-    if(salarioSorteado <= 20000) {
+    if(salarioSorteado <= 20000 && salarioSorteado >= salarioMinimo) {
         salarios.push(parseFloat(salarioSorteado.toFixed(2)));
     } else {
         i = i - 1;
