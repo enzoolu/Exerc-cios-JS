@@ -1,0 +1,12 @@
+16- O índice de massa corpórea (IMC) é calculado a partir da seguinte fórmula:
+IMC = Peso (kg) / Altura*Altura
+Monte um script para o usuário entrar com seu respectivo peso e altura. Após isso o script deverá calcular o IMC da
+pessoa e exibir uma das seguintes mensagens:
+
+IMC                    CLASSIFICAÇÃO
+ATÉ 18,5               Abaixo do peso
+ATÉ 25                 Peso Normal
+ATÉ 30                 Sobrepeso
+ATÉ 35                 Obeso Leve
+ATÉ 40                 Obeso Moderado
+ACIMA 40               Obeso Mórbido
