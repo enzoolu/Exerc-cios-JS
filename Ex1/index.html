@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../global.css">
     <title>exercicio 1</title>
 </head>
 <body>
-    <!--form é onde ficam as opçoes do usuário para passar ou receber dados
-    input é onde o usuário insere alguma informaçao
-    type="number" pois nesse caso só se pode receber números
-    button é o elemento que confirma o dado e chama a funçao no JS-->
-    <form>
-        <h1>Escolha um número</h1>
-        <input type="number" name="numeroDigitado" id="numeroDigitado" placeholder="Selecione um Número">
-        <button id="confirmarNumero">Confirmar Número</button>
-    </form>
 
-    <!--div que contem os elementos que irao receber os valores pedidos no exercecio-->
-    <div class="numeros">
-        <h2 id="numeroEscolhido"></h2>
-        <h2 id="sucessor"></h2>
-        <h2 id="antecessor"></h2>
-        <h2 id="dobro"></h2>
-        <h2 id="metade"></h2>
+    <div class="exercicio">
+        <!--form é onde ficam as opçoes do usuário para passar ou receber dados
+        input é onde o usuário insere alguma informaçao
+        type="number" pois nesse caso só se pode receber números
+        button é o elemento que confirma o dado e chama a funçao no JS-->
+        <form>
+            <h1>Escolha um número</h1>
+            <input type="number" name="numeroDigitado" id="numeroDigitado" placeholder="Selecione um Número">
+            <button id="confirmarNumero">Confirmar Número</button>
+        </form>
+
+        <!--div que contem os elementos que irao receber os valores pedidos no exercecio-->
+        <div class="numeros">
+            <h2 id="numeroEscolhido"></h2>
+            <h2 id="sucessor"></h2>
+            <h2 id="antecessor"></h2>
+            <h2 id="dobro"></h2>
+            <h2 id="metade"></h2>
+        </div>
     </div>
+
+
 
     <script src="./script.js"></script>
 </body>

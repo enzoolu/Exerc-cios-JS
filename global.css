@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Ubuntu&display=swap');
+
+body {
+    background-color: rgb(146, 143, 243);
+}
+
+.exercicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 13%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Readex Pro', 'Ubuntu', sans-serif;
+}
+
+input, select {
+    width: 350px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    width: 170px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
