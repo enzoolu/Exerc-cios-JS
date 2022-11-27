@@ -14,11 +14,11 @@ function resultado() {
     let pergunta5 = document.getElementById('pergunta5').value;
     let respostaSim = 0;
 
-    if(pergunta1 === 'S') {respostaSim = respostaSim + 1;}
-    if(pergunta2 === 'S') {respostaSim = respostaSim + 1;}
-    if(pergunta3 === 'S') {respostaSim = respostaSim + 1;}
-    if(pergunta4 === 'S') {respostaSim = respostaSim + 1;}
-    if(pergunta5 === 'S') {respostaSim = respostaSim + 1;}
+    if(pergunta1 === 'S') {respostaSim = respostaSim + 1};
+    if(pergunta2 === 'S') {respostaSim = respostaSim + 1};
+    if(pergunta3 === 'S') {respostaSim = respostaSim + 1};
+    if(pergunta4 === 'S') {respostaSim = respostaSim + 1};
+    if(pergunta5 === 'S') {respostaSim = respostaSim + 1};
 
     if(respostaSim <= 2 && respostaSim !== 0) {
         inserirResultado.innerHTML = 'Suspeito';
@@ -28,6 +28,6 @@ function resultado() {
         inserirResultado.innerHTML = 'Assassino'
     } else {
         inserirResultado.innerHTML = 'inocente'
-    }
+    };
 };
 
