@@ -1,0 +1,5 @@
+25- Criar um script que peça um número que servirá para controlar os números pares que serão impressos a partir do
+número 2.
+Exemplo:
+Quantos números pares devem ser exibidos: 4
+Tela: 2 4 6 8
