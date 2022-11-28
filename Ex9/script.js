@@ -10,11 +10,11 @@ document.getElementById('confirmarValor').addEventListener('click', e => {
 
 function calcularConta() {
     let valor = document.getElementById('valor').value;
-    let valorConta = parseInt(valor);
+    let valorConta = parseFloat(valor);
     let valorServico = valorConta * 0.10;
     let valorFinal = valorConta + valorServico;
     
-    inserirValorConta.innerHTML = 'Valor da Conta: R$' + valorConta;
-    inserirValorServico.innerHTML = 'Taxa de Serviço: R$' + valorServico;
-    inserirValorFinal.innerHTML = 'Valor Final: R$' + valorFinal;
+    inserirValorConta.innerHTML = 'Valor da Conta: R$' + valorConta.toFixed(2);
+    inserirValorServico.innerHTML = 'Taxa de Serviço: R$' + valorServico.toFixed(2);
+    inserirValorFinal.innerHTML = 'Valor Final: R$' + valorFinal.toFixed(2);
 };

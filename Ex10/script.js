@@ -30,9 +30,9 @@ function precos() {
     let parcelas12 = parcelado / 12;
 
     inserirPreco.innerHTML = 'Preço: R$' + preco;
-    inserirDesconto13.innerHTML = 'Preço com 13% de desconto: R$' + precoDesconto13.toFixed(2);
-    inserirAcrescimo17.innerHTML = 'Preço com 17% de acrescímo: R$' + precoAcrescimo17.toFixed(2);
-    inserir20Parcelas.innerHTML = '20 parcelas de: R$' + parcelas20.toFixed(2);
-    inserirIPVA.innerHTML = 'Preço com 5% de desconto e IPVA pago: R$' + precoIPVA.toFixed(2);
+    inserirDesconto13.innerHTML = 'Preço com 13% de desconto R$' + precoDesconto13.toFixed(2);
+    inserirAcrescimo17.innerHTML = 'Preço com 17% de acrescímo R$' + precoAcrescimo17.toFixed(2);
+    inserir20Parcelas.innerHTML = '20 parcelas de R$' + parcelas20.toFixed(2);
+    inserirIPVA.innerHTML = 'Preço com 5% de desconto e IPVA pago R$' + precoIPVA.toFixed(2);
     inserirEntrada.innerHTML = 'Entrada de R$' + parcelado.toFixed(2) + ' + 12 parcelas de R$' + parcelas12.toFixed(2);
 }; 

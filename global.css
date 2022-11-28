@@ -4,29 +4,41 @@ body {
     background-color: rgb(146, 143, 243);
 }
 
-.exercicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 13%;
-}
-
 h1, h2 {
     text-align: center;
     font-family: 'Readex Pro', 'Ubuntu', sans-serif;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
 input, select {
     width: 350px;
     margin: 3px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
+    border: none;
 }
 
 button {
-    width: 170px;
-    margin: 3px;
-    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    padding: 15px;
     border-radius: 10px;
+    background-color: #fff;
+    transition: .3s;
+    border: none;
+}
+
+button:hover {
+    font-size: 18px;
+    width: 350px;
+    background-color: rgb(90, 218, 90);
+    transition: .2s;
+    border: none;
 }

@@ -40,7 +40,7 @@ function calcNumeros() {
     let conversao = parseFloat(numeroSelecionado);
 
     //Exibir Número Selecionado
-    exibirSelecionado.innerHTML = 'Numero Selecionado: ' + conversao;
+    exibirSelecionado.innerHTML = 'Número Selecionado: ' + conversao;
 
     //Exibir e Calcular o Sucessor
     let sucessor = conversao + 1;
