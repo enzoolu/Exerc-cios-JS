@@ -34,6 +34,5 @@ function quadrado() {
         element.appendChild(inserir);
         const body = document.body;
         body.appendChild(element);
-
     };
 };
