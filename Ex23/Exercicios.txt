@@ -1,0 +1,1 @@
+23- Pedir um número maior que zero e exibir o quadrado de todos os números entre 0 e o número lido.
