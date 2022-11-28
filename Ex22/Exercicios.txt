@@ -9,4 +9,4 @@ f) Média de Idade.
 Para calcular os salários sorteie um valor até 20000.
 Para calcular a idade sorteie um valor até 100.
 Para determinar o sexo use sorteie um valor até 1, onde 0 = Homem e 1= Mulher
-Obs. Todos os dados serão sorteados.
+Obs. Todos os dados serão sorteados. 
