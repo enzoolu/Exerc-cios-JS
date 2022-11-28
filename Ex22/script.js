@@ -33,10 +33,10 @@ for(let i = 0; i < salarios.length; i++) {
 };
 
 //maior salário
-inserirMaior.innerHTML = 'Maior salário: R$ ' + Math.max.apply(null, salarios);
+inserirMaior.innerHTML = 'Maior salário: R$' + Math.max.apply(null, salarios);
 
 //menos salário
-inserirMenor.innerHTML = 'Menor salário: R$ ' + Math.min.apply(null, salarios);
+inserirMenor.innerHTML = 'Menor salário: R$' + Math.min.apply(null, salarios);
 
 //sortear homens e mulheres
 for(let i = 0; i < 300; i++) {
@@ -67,7 +67,7 @@ for(let i = 0; i < idade.length; i++) {
 };
 
 //inserir dados
-inserirMedia.innerHTML = 'A média salárial é de R$ ' + mediaSalarial.toFixed(2);
+inserirMedia.innerHTML = 'A média salárial é de R$' + mediaSalarial.toFixed(2);
 inserirMulheres.innerHTML = mulheres.length + ' são mulheres';
 inserirHomens.innerHTML = homens.length + ' são homens';
 inserirIdade.innerHTML = 'A média de idade é de ' + mediaIdade.toFixed(1) + ' anos';
