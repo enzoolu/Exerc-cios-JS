@@ -13,7 +13,7 @@ function sequencia() {
         resultado = num1;
 
         const element = document.createElement("h2"); 
-        const inserir = document.createTextNode('Termo' + i + ': ' + resultado);
+        const inserir = document.createTextNode('Termo ' + i + ': ' + resultado);
 
         resultado = num2;
         resultado = num1 + num2;
