@@ -1,0 +1,2 @@
+30- Escreva um programa em JavaScript que sorteie um valor inteiro. O seu programa deverá exibir os dez valores
+ímpares consecutivos a partir do valor informado (o valor informado deve ser impresso também caso seja ímpar).
