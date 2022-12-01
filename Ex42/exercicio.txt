@@ -1,0 +1,11 @@
+42- Montar um script em JavaScript que calcule o nível de um jogador qualquer. Para isso faça:
+Sortear um valor entre 0 e 50 para o item FORÇA;
+Sortear um valor entre 0 e 50 para o item AGILIDADE;
+Sortear um valor entre 0 e 50 para o item DANO;
+Calcule o XP desse jogador utilizando a fórmula: (FORÇA * AGILIDADE) / DANO
+Defina o nível do jogador comparando o XP obtido com a tabela abaixo:
+
+      XP            < = 9.0        < = 18.0        < = 27.0        < = 36          > 36
+CLASSIFICAÇÃO       PÉSSIMO          RUIM           NORMAL          BOM           ÓTIMO
+
+Exibir no console: FORÇA / AGILIDADE / DANO / XP OBTIDO / CLASSIFICAÇÃO 
