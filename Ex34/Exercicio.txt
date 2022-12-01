@@ -1,0 +1,5 @@
+34- Faça um script que gere aleatoriamente através de um laço de repetição um vetor com 20 números,
+calcule e exiba:
+• O maior elemento do vetor e em que posição esse elemento se encontra;
+• O menor elemento do vetor e em que posição esse elemento se encontra.
+Obs.: O vetor com os 10 elementos deve ser impresso na tela também
