@@ -1,0 +1,5 @@
+40- Faça um script que sorteie um vetor S(20) com números entre 0 e 10, calcule e exiba:
+• O vetor sorteado em uma única linha.
+• A quantidade de números 3 que foram sorteados.
+• Substituir todos os números 9 sorteados por -1.
+• Exibir novamente esse vetor após a substituição.
