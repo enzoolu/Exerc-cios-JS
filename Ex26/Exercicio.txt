@@ -1,0 +1,5 @@
+26- Sortear 200 números e exibir quantos:
+a) São pares e quantos são ímpares.
+b) São maiores e menores que 500.
+c) Quantos números entre 300 e 700 formam sorteados.
+Para esse script sorteie valores entre 0 até 1000.
