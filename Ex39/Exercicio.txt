@@ -1,0 +1,6 @@
+39-) Faça um script que leia um código numérico inteiro e um vetor de 50 posições de números, calcule e
+exiba:
+• Se o código for 0, termine o script.
+• Se o código for 1, mostre o vetor na ordem em que ele foi gerado.
+• Se o código for 2, mostre o vetor na ordem inversa, do último até o primeiro.
+Obs: Não aceitar código diferentes de 0, 1 e 2.
