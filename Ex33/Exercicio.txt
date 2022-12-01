@@ -1,0 +1,3 @@
+33- Faça um script que gere aleatoriamente através de um laço de repetição um vetor com 30 números
+inteiros (entre 0 - 9), calcule e exiba a quantidade de números “3” e a soma dos números maiores que “5”.
+Obs.: O vetor com os 30 elementos deve ser impresso na tela também.
