@@ -11,7 +11,7 @@ let menores = [];
 let maiores = [];
 let entre = [];
 
-for(let i = 0; i <= 200; i++) {
+for(let i = 0; i < 200; i++) {
     let gerarNumeros = Math.random() * 1001;
     numeros.push(gerarNumeros.toFixed(0));
 }
