@@ -8,21 +8,17 @@ document.getElementById('confirmarNumeros').addEventListener('click', e => {
 });
 
 function veriricacao() {
-    let n1 = document.getElementById('num1').value;
-    let n2 = document.getElementById('num2').value;
-    
-    let num1 = parseInt(n1);
-    let num2 = parseInt(n2);
+    let n1 = parseInt(document.getElementById('num1').value);
+    let n2 = parseInt(document.getElementById('num2').value);
 
-    if(num1 > num2) {
-        inserirVerificacaoMaior.innerHTML = 'O primeiro número é maior do que o segundo';
-    } if(num1 < num2) {
-        inserirVerificacaoMaior.innerHTML = 'O primeiro número é menor do que o segundo';
-    } if(num1 == num2) {
-        inserirVerificacaoIgualdade.innerHTML = 'O primeiro número é igual ao segundo';
-        inserirVerificacaoMaior.innerHTML = '';
-        inserirVerificacaoMaior.innerHTML = '';
-    } if(num1 !== num2) {
+    if (n1 === n2) {
+        inserirVerificacaoIgualdade.innerHTML = 'O primeiro número é igual ao segundo';            
+    } else {
+        if(n1 > n2) {
+            inserirVerificacaoMaior.innerHTML = 'O primeiro número é maior do que o segundo';
+        } else {
+            inserirVerificacaoMaior.innerHTML = 'O primeiro número é menor do que o segundo';
+        }
         inserirVerificacaoIgualdade.innerHTML = 'O primeiro número é diferente do segundo';
-    };
+    }
 };

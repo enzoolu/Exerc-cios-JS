@@ -20,12 +20,9 @@ function verificacao() {
 
     numeros.push(num1, num2, num3, num4, num5);
 
-    //deve existir uma forma melhor de fazer isso
-    if(numeros[0] > media) {maiores.push(numeros[0]);} 
-    if(numeros[1] > media) {maiores.push(numeros[1]);} 
-    if(numeros[2] > media) {maiores.push(numeros[2]);}
-    if(numeros[3] > media) {maiores.push(numeros[3]);}
-    if(numeros[4] > media) {maiores.push(numeros[5]);}
+    for (let i = 0; i <= numeros.length; i++) {
+        if(numeros[i] > media) {maiores.push(numeros[i]);} 
+    }
 
     let qntsMaiores = maiores.length;
 

@@ -1,8 +1,4 @@
-let inserirPares = document.getElementById('pares');
-let inserirImpares = document.getElementById('impares');
-let inserirMenores = document.getElementById('menores');
-let inserirMaiores = document.getElementById('maiores');
-let inserirEntre = document.getElementById('entre');
+const inserirPares = document.getElementById('pares');const inserirImpares = document.getElementById('impares');const inserirMenores = document.getElementById('menores');const inserirMaiores = document.getElementById('maiores');const inserirEntre = document.getElementById('entre');
 
 let numeros = [];
 let pares = [];

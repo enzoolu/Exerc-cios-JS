@@ -9,9 +9,8 @@ document.getElementById('confirmarValor').addEventListener('click', e => {
 });
 
 function calcularConta() {
-    let valor = document.getElementById('valor').value;
-    let valorConta = parseFloat(valor);
-    let valorServico = valorConta * 0.10;
+    let valor = parseFloat(document.getElementById('valor').value);
+    let valorServico = valor * 0.10;
     let valorFinal = valorConta + valorServico;
     
     inserirValorConta.innerHTML = 'Valor da Conta: R$' + valorConta.toFixed(2);

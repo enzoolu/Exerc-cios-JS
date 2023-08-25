@@ -7,27 +7,22 @@ document.getElementById('confirmar').addEventListener('click', e => {
 });
 
 function resultado() {
-    let pergunta1 = document.getElementById('pergunta1').value;
-    let pergunta2 = document.getElementById('pergunta2').value;
-    let pergunta3 = document.getElementById('pergunta3').value;
-    let pergunta4 = document.getElementById('pergunta4').value;
-    let pergunta5 = document.getElementById('pergunta5').value;
-    let respostaSim = 0;
+    let respSim = []
+    for (let i = 1; i < 6; i++) {
+        let pergunta = document.getElementById('pergunta' + [i]).value;
+        if (pergunta === 'S') {
+            respSim.push(pergunta);
+        }
+    }
 
-    if(pergunta1 === 'S') {respostaSim = respostaSim + 1};
-    if(pergunta2 === 'S') {respostaSim = respostaSim + 1};
-    if(pergunta3 === 'S') {respostaSim = respostaSim + 1};
-    if(pergunta4 === 'S') {respostaSim = respostaSim + 1};
-    if(pergunta5 === 'S') {respostaSim = respostaSim + 1};
-
-    if(respostaSim <= 2 && respostaSim !== 0) {
+    if(respSim.length <= 2 && respSim.length !== 0) {
         inserirResultado.innerHTML = 'Suspeito';
-    } else if(respostaSim >= 3 && respostaSim <= 4) {
-        inserirResultado.innerHTML = 'Cúmplice'
-    } else if(respostaSim == 5) {
-        inserirResultado.innerHTML = 'Assassino'
+    } else if(respSim.length >= 3 && respSim.length <= 4) {
+        inserirResultado.innerHTML = 'Cúmplice';
+    } else if(respSim.length == 5) {
+        inserirResultado.innerHTML = 'Assassino';
     } else {
-        inserirResultado.innerHTML = 'inocente'
-    };
+        inserirResultado.innerHTML = 'inocente';
+    }
 };
 
